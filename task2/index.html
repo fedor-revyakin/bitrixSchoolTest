@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Задание 2</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Добавить отзыв</h1>
+    <form id="addCommentForm">
+        <label for="email">
+            email
+        </label>
+        <input name="email">
+        <label for="email" id="email" class="error"></label>
+        
+        <label>
+            Имя
+        </label>
+        <input name="name">
+        <label for="name" id="name" class="error"></label>
+        
+        <label>
+            Оценка страницы
+        </label>
+        <input name="rating">
+        <label for="rating" id="rating" class="error"></label>
+    
+    
+    
+        <label>
+            Комментарий
+        </label>
+        <textarea name="text"></textarea>
+        <label for="text" id="text" class="error"></label>
+        
+    
+        <button id="addComment" type="submit">
+            Отправить
+        </button>
+    
+        <label id="errorResult" class="error"></label>
+        <label id="successResult" class="success"></label>
+    </form>
+</body>
+</html>
